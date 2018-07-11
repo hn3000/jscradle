@@ -1,0 +1,36 @@
+
+body {
+  font-family: 'Helvetica Neue', 'Helvetica', sans-serif;
+  font-size: 16px;
+}
+
+code {
+  font-size: 13px;
+}
+body {
+  display: grid;
+  grid-template-columns: fit-content(450px) fit-content(1fr);
+}
+/*
+body > div {
+  display: grid;
+}
+*/
+div.code {
+  grid-column: 1;
+}
+div.output {
+  grid-column: 2;
+}
+div.output > div {
+  overflow: auto;
+}
+
+textarea {
+  min-height: 300px;
+}
+
+iframe {
+  min-height: 500px;
+  width: 100%;
+}
