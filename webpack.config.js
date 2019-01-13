@@ -7,7 +7,7 @@ module.exports = {
   mode: 'development',
 
   entry: {
-    bookie3: './src/index.ts',
+    jscradle: './src/index.ts',
     sw: './src/worker.ts',
     dw: './src/data-worker.ts',
     cw: './src/cache-worker.ts'
