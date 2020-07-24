@@ -46,21 +46,21 @@ module.exports = {
       template: 'src/template.hbs',
       filename: 'index-sd.html',
       inject: true,
-      chunks: ['bookie3']
+      chunks: ['jscradle']
     }),
     new HtmlWebpackPlugin({
       title: 'Webpack+ServiceWorker',
       template: 'src/template.hbs',
       filename: 'index-sw.html',
       inject: true,
-      chunks: ['bookie3', 'sw']
+      chunks: ['jscradle', 'sw']
     }),
     new HtmlWebpackPlugin({
       title: 'Webpack+ServiceWorker',
       template: 'src/template.hbs',
       filename: 'index-dw.html',
       inject: true,
-      chunks: ['bookie3', 'dw']
+      chunks: ['jscradle', 'dw']
     }),
     new webpack.NamedModulesPlugin(),
     /*new webpack.HotModuleReplacementPlugin({
